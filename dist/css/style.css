@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#1a1a2e
+    ;
+}
+.container{
+    width: 900px;
+    height: 1000px;
+    padding-top: 150px;
+    margin: 0 auto;
+    border: 1px solid white;
+
+}
+.header{
+    text-align: center;
+    color: white;
+    padding-top: 0;
+    font-size: 30px;
+
+}
+.blox{
+display: flex;
+justify-content:space-around}
+.picture{
+    width: 50px;
+    height:100px;
+}
+img{
+        width: 200px;
+        height: 200px;
+        border: 2px solid rgb(70, 70, 70);;
+}
