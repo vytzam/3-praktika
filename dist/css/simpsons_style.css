@@ -13,7 +13,6 @@ body {
     height: 100%;
     margin: 0 auto;
     /* align-items: center; */
-    border: 1px solid white;
     /* flex-wrap: wrap; */
 }
 /* font-family: 'Source Sans Pro', sans-serif; */
@@ -37,6 +36,7 @@ img{
     margin: 0;
     width: 100%;
 
+
 }
 .imageLogo2{
     width: 50%;
@@ -44,19 +44,24 @@ img{
     
 
 }
- .header{
+.header{
     text-align:left;
     font-family:'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    margin-left: 5px;
+    margin-top: 5px;
+
 }
 .text{
     font-size: 10px;
+    margin: 5px;
 
   
 }
 .back{
     background-color: white;
     width: 28%;
-    height: 200px;
+    height: auto;
     
 
 
@@ -65,10 +70,15 @@ img{
 .family{
 
     justify-content: center;
+    width:28%;
+
 
 }
 .back a{
 
    text-decoration: none;
-   text-align: end;
+   font-size: 10px;
+   text-transform:uppercase;
+   margin-left: 5px;
+   margin-bottom: 10px;
 }
